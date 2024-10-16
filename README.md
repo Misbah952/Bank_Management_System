@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This project is a **Banking Management System (BMS)** built in C++ exploiting the concepts of hierarchy and abstraction. It is designed to manage banking operations through various interfaces for administrators, employees, and customers. The system is intended to be run in **fullscreen mode** for optimal visualization of the data.  This is console-only project without any GUI support. It exploits the concepts of hierarchy and abstraction. 
+This project is a **Banking Management System (BMS)** built in C++ exploiting the concepts of hierarchy and abstraction. It is designed to manage banking operations through various interfaces for administrators, employees, and customers. The system is intended to be run in **fullscreen mode** for optimal visualization of the data.  This is console-only project without any GUI support.
 
 
 The project uses a class-based design and provides a user-friendly command-line interface for different functionalities such as:
@@ -26,6 +26,33 @@ The project uses a class-based design and provides a user-friendly command-line 
 
 - **Clear Screen**: The interface clears the console screen between operations for better readability and user experience using `system("CLS")`.
 
+# Functionalities
+
+## Admin Block
+- Add Employee
+- Modify Employee
+- Display Employees
+- Delete Employees
+- Add Customer
+- Modify Customer
+- Display Customers
+- Delete Customer
+- Deposit to Customer A/C
+- Withdraw from Customer A/C
+
+## Employee Block
+- Add Customer
+- Modify Customer
+- View Balance
+- Change Password
+- Logout to Main Menu
+
+## Customer Block
+- View Balance
+- Deposit Amount
+- Withdraw Amount
+- Logout to Main Menu
+
 ## Requirements
 
 - A C++ compiler (like g++)
@@ -46,3 +73,6 @@ The project uses a class-based design and provides a user-friendly command-line 
    g++ -o main.cpp 
 
 **Note**: The project was organized to include a seprate directory for cpp and header files. In order to run the project smoothly, create a temporary directory and copy all the cpp and header files in one directory and then follow How to Run section to execute  the main program.
+
+
+
